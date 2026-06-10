@@ -1,0 +1,52 @@
+# Credentials and configuration
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+!.vscode/extensions.json # Optional: Keep extensions recommendations
+
+# IntelliJ / PyCharm / WebStorm
+.idea/
+*.iws
+*.iml
+
+# Local history / crash logs
+.history/
+*.log
+
+# Dependencies
+node_modules/
+/jspm_packages/
+
+# Build outputs
+dist/
+build/

@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+transformers
+sentence-transformers
+peft
+datasets
+ipykernel
